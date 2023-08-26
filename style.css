@@ -77,10 +77,13 @@ label {
     font-size: 60px;
   }
 
-  #finalAmount h2,
-  .finalValue {
+  
+  #finalAmount h2{
     font-size: 40px;
     background-color: rgba(247, 243, 243, 0.781);
+  }
+  .finalValue {
+    font-size: 30px;
   }
 
   .heading {
