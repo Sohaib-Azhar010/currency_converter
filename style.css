@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Pacifico&family=Qwitcher+Grypen&family=Roboto:wght@300;400&display=swap");
+/* font-family: 'Mea Culpa', cursive; */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: aliceblue; */
+  /* background: linear-gradient(142deg, rgba(205,217,49,1) 0%, rgba(45,192,253,1) 79%); */
+  background: url(imgs/bg.avif);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin-top: 5%;
+}
+.heading {
+  font-family: "Mea Culpa", cursive;
+  font-size: 80px;
+  font-weight: bolder;
+  margin: 35px auto 20px;
+}
+
+.main {
+  width: 50vw;
+  margin: auto;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+label {
+  font-size: 20px;
+}
+
+#finalAmount {
+  font-family: "Mea Culpa", cursive;
+  /* display: none; */
+  margin: 50px auto;
+
+}
+
+#finalAmount h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.finalValue {
+  font-family: "Amiri", serif;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: black;
+  color: whitesmoke;
+  width: 200px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background: url(imgs/bg2.jpg);
+  }
+  .heading {
+    font-size: 60px;
+  }
+
+  #finalAmount h2,
+  .finalValue {
+    font-size: 40px;
+    background-color: rgba(247, 243, 243, 0.781);
+  }
+
+  .heading {
+    background-color: rgba(247, 243, 243, 0.781);
+  }
+}
